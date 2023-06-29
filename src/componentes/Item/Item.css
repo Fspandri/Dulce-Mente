@@ -1,0 +1,32 @@
+.cardProducto {
+    background-color: beige;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botonProducto {
+    background-color: white;
+    color: rgb(2, 116, 2);
+    font-weight: bold;
+    border: rgb(2, 116, 2);
+}
+
+h3 {
+    font-size: large;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: small;
+    text-align: center;
+}
+
+
+

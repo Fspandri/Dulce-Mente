@@ -1,25 +1,25 @@
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <img className="logo" src="./public/img/logo.png" alt="Logo de Dulce Mente" />
+                    <Link to={"/"}>
+                        <img className="logo" src="../public/img/logo.png" alt="Logo de Dulce Mente"/>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                Quienes somos
+                        <ul className="navbar-nav">
+                            <li>
+                                <NavLink className="estiloNavbar" to={"/productos/tortas"}>Tortas</NavLink>
                             </li>
-                            <li className="nav-item">
-                                Productos
-                            </li>
-                            <li className="nav-item">
-                                Contacto
+                            <li>
+                                <NavLink className="estiloNavbar" to={"/productos/fingerfood"}>Finger Food</NavLink>
                             </li>
                         </ul>
                         <CartWidget />
@@ -29,5 +29,6 @@ const NavBar = () => {
         </header>
     )
 }
+
 
 export default NavBar
