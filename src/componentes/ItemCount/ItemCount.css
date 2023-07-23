@@ -1,0 +1,18 @@
+.botonContador {
+    background-color: white;
+    color: rgb(2, 116, 2);
+    font-weight: bold;
+    border: rgb(2, 116, 2); 
+}
+
+.botonAgregar {
+    background-color: white;
+    color: rgb(2, 116, 2);
+    font-weight: bold;
+    border: rgb(2, 116, 2); 
+    margin-top: 15px;
+}
+
+.contador {
+    margin: auto;
+}

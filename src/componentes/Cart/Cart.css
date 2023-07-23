@@ -1,0 +1,17 @@
+h2 {
+    font-size: large;
+    text-align: center;
+    margin: 50px;
+}
+
+.btnVaciarCarrito {
+    background-color: white;
+    color: rgb(2, 116, 2);
+    font-weight: bold;
+    border: 1px solid  rgb(2, 116, 2);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 50px;
+    font-size: small;
+}
+

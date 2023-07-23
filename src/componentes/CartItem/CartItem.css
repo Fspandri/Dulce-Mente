@@ -1,0 +1,21 @@
+.btnEliminar {
+    background-color: white;
+    color: rgb(2, 116, 2);
+    font-weight: bold;
+    border: 1px solid  rgb(2, 116, 2);
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    font-size: small;
+    margin-left: 30px;
+}
+
+.estiloimg {
+    width: 200px;
+    height: 200px;    
+}
+
+.estiloProducto {
+    display: inline-block;
+    padding: 30px;
+}
