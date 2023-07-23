@@ -24,11 +24,9 @@ const ItemDetail = ({id, nombre, precio, img, stock, descripcion}) => {
           <h3>Precio: ${precio}</h3>
           <h3>ID: {id}</h3>
           <p>{descripcion}</p>
-        
-          {
-            agregarCantidad > 0 ? (<Link style={{ border:"2px solid rgb(2, 116, 2) ", padding: "7px", borderRadius: "8px", color: "rgb(251, 133, 83)", textDecoration: "none", fontWeight: "bold"}} to="/cart"> Finalizar Compra</Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
-          }
-
+              {
+                agregarCantidad > 0 ? (<Link to="/cart" className="btnCompra"> Finalizar Compra</Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
+              }
       </div>
     )
 }

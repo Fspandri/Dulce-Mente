@@ -7,4 +7,13 @@
     text-align: center;
 }
 
+.btnCompra {
+    border-radius: 8px;
+    padding: 7px;
+    border: 2px solid rgb(2, 116, 2);
+    color: rgb(251, 133, 83);
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
