@@ -96,7 +96,7 @@ const Checkout = () => {
                 </div>
 
                 {
-                    error && <p> {error} </p>
+                    error && <p style={{ color: "red" }}> {error} </p>
                 }
 
                 <button className="botonFin w-100" type="submit"> Finalizar Compra </button>
